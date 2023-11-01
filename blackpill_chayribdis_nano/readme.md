@@ -22,7 +22,7 @@ The official recommended PCB thickness is 0.6 or 0.8.
 | --------------------------------- | -------- | ------------------------------------------------------------------------------------------ |
 | blackpill                         | 2        | https://ko.aliexpress.com/item/1005001456186625.html                                       |
 | blackpill adapter                 | 2        | https://github.com/Bastardkb/adapter-blackpill/                                            |
-| 1206 SMD Diodes 5.1k              | 6        | https://github.com/Bastardkb/adapter-blackpill/                                            |
+| 1206 SMD Diodes 5.1k              | 6        | https://ko.aliexpress.com/item/1005004545215237.html                                       |
 | M95640-WMN6TP EEPROM              | 2        | https://ko.aliexpress.com/item/4000014805924.html                                          |
 | Audio jack, SMD                   | 2        | https://ko.aliexpress.com/item/1005001346205553.html                                       |
 | Button, 4x4x1.5                   | 2        | https://ko.aliexpress.com/item/1005003918757433.html                                       |
@@ -47,3 +47,4 @@ The Si3N4 bearing can be ordered in the desired size when using BTU mode.
 | --------------------------------- | -------- | ------------------------------------------------------------------------------------------ |
 | M4 8mm Torx Screw                 | 10       | https://ko.aliexpress.com/item/1005004048368746.html                                       |
 | M4 screw insert, M4 X D6.0 X L5.0 | 8        | https://ko.aliexpress.com/item/1005004870993068.html                                       |
+| Black 10x2mm bumpon               | 10       | https://ko.aliexpress.com/item/1005005287385986.html                                       |
