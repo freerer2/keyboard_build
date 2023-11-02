@@ -40,7 +40,7 @@ EEPROM is required when using vial or rgb.
 | Si3N4 2.5 or 3.0 or 3.175 ball    | 3        | https://ko.aliexpress.com/item/1005003610474605.html                                       |
 | 34mm Trackball                    | 1        | anything you want                                                                          |
 
-The Si3N4 bearing can be ordered in the desired size when using BTU mode.
+When using BTU mode, the bearing size must be checked before ordering Si3N4 bearings.
 
 ### Case
 | Part name                         |  Amount  | Link                                                                                       |
