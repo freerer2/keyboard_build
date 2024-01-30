@@ -22,6 +22,7 @@ The official recommended PCB thickness is 0.6 or 0.8.
 | --------------------------------- | -------- | ------------------------------------------------------------------------------------------ |
 | nice!nano                         | 2        |                                    |
 | MCU holder                        | 2        | https://github.com/victorlucachi/Elite-C-holder                                            |
+| MSK-12C01-07                      | 2        |                                            |
 | 1206 SMD Diodes 5.1k              | 6        | https://ko.aliexpress.com/item/1005004545215237.html                                       |
 | Button, 4x4x1.5                   | 2        | https://ko.aliexpress.com/item/1005003918757433.html                                       |
 | Battery                           | 2        |                                     |
