@@ -6,5 +6,5 @@
 ## Keyboards
 
 * [blackpill_chayribdis_nano](/blackpill_chayribdis_nano/) : chayribdis_nano 블랙필버전(케이스 수정)
-* [wireless_charybdis_nano](/wireless_charybdis_nano/) : chayribdis_nano 무선버전(케이스 수정)
+* [wireless_charybdis_nano](/wireless_charybdis_nano/) : chayribdis_nano 무선버전(작성중)
 * [cantor-remix_MX](/cantor-remix_MX/) : cantor-remix MX버전(PCB수정)
