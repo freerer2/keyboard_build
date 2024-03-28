@@ -1,16 +1,8 @@
 # NONAME36(키보드 네이밍 미정)
 아주 얇은 36키, 유선, choc v1 핫스왑, 모노블럭 스플릿, 컬럼스태거 기계식키보드
-
 ## Quick Links
-
 ## Features
-
 ## Bill of Materials (BOM)
-
-#
-#
-#
-#
 ## TODO-LIST
 ### PCB
 - [ ] 회로설계
