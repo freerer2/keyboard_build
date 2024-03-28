@@ -44,7 +44,8 @@
   - [ ] 하판
 
 ### FIRMWARE
-- [ ] Qmk
+- [ ] QMK
+- [ ] VIA
 
 ### ETC
 - [ ] README 작성
