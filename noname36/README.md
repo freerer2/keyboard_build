@@ -59,3 +59,8 @@
     -   [ ] BOM
 
 ## NOTE
+1. MCU는 promicro like으로 진행
+2. 회로도는 Keyboard one 참고
+3. PCB는 Zerosprey42 참고
+4. 스위치는 PG1350기준으로 진행(추후 GLP, MX 고려해봄직 함...)
+5. 킥
