@@ -28,10 +28,10 @@
         -   [x] Switch
         -   [x] Diode
 -   [ ] PCB설계
-    -   [ ] 풋프린트 정렬
-        -   [ ] MCU
-        -   [ ] Switch
-        -   [ ] Diode
+    -   [x] 풋프린트 정렬
+        -   [x] MCU
+        -   [x] Switch
+        -   [x] Diode
     -   [ ] 구리선 연결
     -   [ ] 아웃라인 그리기
     -   [ ] Gerber 생성
