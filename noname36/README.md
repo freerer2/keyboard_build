@@ -13,20 +13,20 @@
 ## PCB
 
 -   [ ] 회로설계
-    -   [ ] 심볼 라이브러리 선정
-        -   [ ] MCU :
-        -   [ ] Switch :
-        -   [ ] Diode :
-    -   [ ] 풋프린트 라이브러리 선정 
-        -   [ ] MCU :
-        -   [ ] Switch :
-        -   [ ] Diode :
-    -   [ ] MCU GPIO PIN 할당
-    -   [ ] 매트릭스 설계
-    -   [ ] 심볼 풋프린트 할당
-        -   [ ] MCU
-        -   [ ] Switch
-        -   [ ] Diode
+    -   [x] 심볼 라이브러리 선정
+        -   [x] MCU :
+        -   [x] Switch :
+        -   [x] Diode :
+    -   [x] 풋프린트 라이브러리 선정 
+        -   [x] MCU :
+        -   [x] Switch :
+        -   [x] Diode :
+    -   [x] MCU GPIO PIN 할당
+    -   [x] 매트릭스 설계
+    -   [x] 심볼 풋프린트 할당
+        -   [x] MCU
+        -   [x] Switch
+        -   [x] Diode
 -   [ ] PCB설계
     -   [ ] 풋프린트 정렬
         -   [ ] MCU

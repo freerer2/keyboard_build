@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KBD")(type "KiCad")(uri "${KIPRJMOD}/library/KBD.pretty")(options "")(descr ""))
+  (lib (name "KBD_SWITCHS")(type "KiCad")(uri "${KIPRJMOD}/library/KBD_SWITCHS.pretty")(options "")(descr ""))
+)
