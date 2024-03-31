@@ -1,6 +1,17 @@
 # Blackpill_charybdis_nano(BTU MODE, NO RGB)
 ![Blackpill_charybdis_nano](assets/Blackpill_charybdis_nano.jpg)
 
+## 한국어 안내
+거 케이스는 모델폴더 들어가서 Skeletyl_blackpill_left.stl, charybdisnano_blackpill_right.stl 
+
+이렇게만 뽑고 나머지는 알아서 찾아서 뽑든가 모델폴더에 있는 걸로 뽑든가 하믄 됨
+
+베어링은 btu 모드 했는데 2.5, 3.0, 3.175로 하던가 원하는거 찾아서 하셈
+
+누가 빌드 가이드 작성한거 있어서 링크 남김
+
+https://m.dcinside.com/mini/splitkeeb/2681?headid=&recommend=&s_type=subject_m&serval=%EC%B9%B4%EB%A6%AC%EB%B8%8C
+
 # Part List
 ## 3d prints - cases
 Look inside the "model" folder
