@@ -1,4 +1,4 @@
-# NONAME36(키보드 네이밍 미정)
+# LAZYBOY36
 
 아주 얇은 36키, 유선, choc v1 핫스왑, 모노블럭 스플릿, 컬럼스태거 기계식키보드
 
@@ -14,13 +14,13 @@
 
 -   [ ] 회로설계
     -   [x] 심볼 라이브러리 선정
-        -   [x] MCU :
-        -   [x] Switch :
-        -   [x] Diode :
+        -   [x] MCU
+        -   [x] Switch
+        -   [x] Diode
     -   [x] 풋프린트 라이브러리 선정 
-        -   [x] MCU :
-        -   [x] Switch :
-        -   [x] Diode :
+        -   [x] MCU
+        -   [x] Switch
+        -   [x] Diode
     -   [x] MCU GPIO PIN 할당
     -   [x] 매트릭스 설계
     -   [x] 심볼 풋프린트 할당
