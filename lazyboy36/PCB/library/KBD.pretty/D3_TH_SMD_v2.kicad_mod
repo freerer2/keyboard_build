@@ -1,42 +1,189 @@
-(footprint "D3_TH_SMD_v2" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Resitance 3 pas")
-  (tags "R")
-  (attr through_hole)
-  (fp_text reference "D33" (at 0.55 0 -180) (layer "F.Fab") hide
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    (tstamp ca7e682c-4caa-4257-8c76-2d36be78256b)
-  )
-  (fp_text value "D" (at -0.55 0 -180) (layer "F.Fab") hide
-      (effects (font (size 0.5 0.5) (thickness 0.125)))
-    (tstamp 010e16f3-e996-4412-8098-f1bfc36a2f96)
-  )
-  (fp_line (start -4.064 -1.016) (end -4.064 1.016)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e34dfb05-be4c-4f81-b59f-8cedba1b1c36))
-  (fp_line (start -4.064 1.016) (end -2.667 1.016)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 402d7e1c-7d60-4205-b0ba-e6d3a9454bf8))
-  (fp_line (start -2.667 -1.016) (end -4.064 -1.016)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 10531846-25d0-4449-94ba-3cdb0062377d))
-  (fp_line (start -0.5 -0.5) (end -0.5 0.5)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 9ea4b926-6525-4039-9c3c-e8bbfb5708a0))
-  (fp_line (start -0.4 0) (end 0.5 -0.5)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp e00bd35c-64fd-4f2b-a82b-c5fe16811f10))
-  (fp_line (start 0.5 -0.5) (end 0.5 0.5)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 1b6c5ed8-f7e8-4c6f-a013-9f92bfc8f324))
-  (fp_line (start 0.5 0.5) (end -0.4 0)
-    (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 2f212da2-928b-443f-bdf8-0593add8b272))
-  (pad "1" thru_hole rect (at -3 0) (size 1.778 1.524) (drill 0.8128) (layers "*.Cu" "B.Mask") (tstamp bc35f5e3-c429-4254-82d7-a30a1674d85c))
-  (pad "1" smd rect (at -1.7 0 180) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f58b84b9-cbc8-496c-a3be-0831dfb1946f))
-  (pad "2" smd rect (at 1.7 0 180) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 005d6750-893f-41b0-897b-8ae92c1e6dc7))
-  (pad "2" thru_hole oval (at 3 0) (size 1.778 1.524) (drill 0.8128) (layers "*.Cu" "B.Mask") (tstamp 5f660e54-d554-43a2-b7b6-9316a9a611f0))
-  (model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.22 0.15 0.15))
-    (rotate (xyz 0 0 180))
-  )
-  (model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "D3_TH_SMD_v2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resitance 3 pas")
+	(tags "R")
+	(property "Reference" "REF**"
+		(at 0.55 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19a8f0f4-fe70-4b02-9f85-b5dd554ca03f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "Diode"
+		(at -0.55 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "114d3bdc-dfa2-4aab-ac3d-a60df4a1d582")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" "KBD:D3_TH_SMD_v2"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59deb5a7-911c-43c9-976a-43bbabf66c6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "319b7033-9aef-4449-a3ea-4b93aad1da50")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caeb3e15-5fcc-4656-a879-593886dd2370")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.5 0.5)
+		(end -0.4 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1c30085-8b53-43fd-adfe-2dda86b817fa")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5b746bd-3b53-4509-808e-b0d7122aeca0")
+	)
+	(fp_line
+		(start -0.4 0)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a71f32ca-6e66-4cef-939e-a2a1e1c5aa74")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "324eb0ed-a9f7-43c3-85bd-2188647d728d")
+	)
+	(fp_line
+		(start -2.667 -1.016)
+		(end -4.064 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2e81c7-35ab-465e-924c-8aeba73ec2e3")
+	)
+	(fp_line
+		(start -4.064 1.016)
+		(end -2.667 1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b13d8f1-1369-4ea0-b0d0-e438578d30a3")
+	)
+	(fp_line
+		(start -4.064 -1.016)
+		(end -4.064 1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e111821-3c45-46d2-a756-6560a0213829")
+	)
+	(pad "1" thru_hole rect
+		(at -3 0 180)
+		(size 1.778 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "f9d09949-2362-4d76-9885-1842d1d957a1")
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f4364479-381f-4bca-b531-c1f91c502892")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 1.524 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "70ac30db-747e-472a-be72-6571a729b399")
+	)
+	(pad "2" thru_hole oval
+		(at 3 0 180)
+		(size 1.778 1.524)
+		(drill 0.8128)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers no)
+		(uuid "e8a989ee-4315-42c6-9db9-55fa3cf1f787")
+	)
+	(model "Diodes_SMD.3dshapes/SMB_Handsoldering.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.22 0.15 0.15)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+	(model "/Users/foostan/src/github.com/foostan/kbd/kicad-packages3D/kbd.3dshapes/D_SOD-123.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

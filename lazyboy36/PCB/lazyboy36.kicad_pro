@@ -467,10 +467,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "lazyboy36.step",
       "svg": "",
       "vrml": ""
     },
