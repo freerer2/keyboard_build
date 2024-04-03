@@ -6,4 +6,4 @@
 - [blackpill_chayribdis_nano](/blackpill_chayribdis_nano/) : chayribdis_nano 블랙필버전(케이스 수정)
 - [wireless_charybdis_nano](/wireless_charybdis_nano/) : chayribdis_nano 무선버전(작성중)
 - [cantor-remix_MX](/cantor-remix_MX/) : cantor-remix MX버전(PCB수정)
-- [lazyboy36](/lazyboy36/) : 36키 모노블럭 키보드([설계중]-주문-제작)
+- [lazyboy36](/lazyboy36/) : 36키 모노블럭 키보드([설계중]-주문-제작) < 일시중단
