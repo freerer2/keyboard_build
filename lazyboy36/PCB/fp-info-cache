@@ -1,4 +1,4 @@
-57865384845083
+59577530971342
 KBD
 D3_SMD
 Resitance 3 pas
@@ -29,6 +29,13 @@ ProMicro_RP2040_v3.5_R
 31
 KBD
 SW_Gateron_LowProfile_HotSwap_PTH
+Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.
+switch, low_profile, hot_swap
+0
+6
+2
+KBD
+SW_Gateron_LowProfile_HotSwap_PTH_복사
 Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.
 switch, low_profile, hot_swap
 0

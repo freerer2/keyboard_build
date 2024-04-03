@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 170.5356 85.725 0)
 			(effects
 				(font
@@ -3332,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 159.1056 85.725 0)
 			(effects
 				(font
@@ -3469,7 +3469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 193.3956 103.505 0)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 147.6756 85.725 0)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 193.3956 67.945 0)
 			(effects
 				(font
@@ -4018,7 +4018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 136.2456 85.725 0)
 			(effects
 				(font
@@ -4086,7 +4086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 124.8156 67.945 0)
 			(effects
 				(font
@@ -4430,7 +4430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 204.8256 85.725 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 204.8256 67.945 0)
 			(effects
 				(font
@@ -4704,7 +4704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 216.2556 67.945 0)
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 159.1056 67.945 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 147.6756 67.945 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 113.3856 67.945 0)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 170.5356 103.505 0)
 			(effects
 				(font
@@ -5629,7 +5629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 124.8156 85.725 0)
 			(effects
 				(font
@@ -5697,7 +5697,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 159.1056 103.505 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 181.9656 67.945 0)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 113.3856 50.165 0)
 			(effects
 				(font
@@ -5901,7 +5901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 216.2556 85.725 0)
 			(effects
 				(font
@@ -5969,7 +5969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 147.6756 103.505 0)
 			(effects
 				(font
@@ -6037,7 +6037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 193.3956 50.165 0)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 181.9656 85.725 0)
 			(effects
 				(font
@@ -6173,7 +6173,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 170.5356 50.165 0)
 			(effects
 				(font
@@ -6241,7 +6241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 216.2556 50.165 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 124.8156 50.165 0)
 			(effects
 				(font
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 204.8256 50.165 0)
 			(effects
 				(font
@@ -6652,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 136.2456 67.945 0)
 			(effects
 				(font
@@ -6720,7 +6720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 170.5356 67.945 0)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 136.2456 50.165 0)
 			(effects
 				(font
@@ -6856,7 +6856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 113.3856 85.725 0)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 159.1056 50.165 0)
 			(effects
 				(font
@@ -7061,7 +7061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 193.3956 85.725 0)
 			(effects
 				(font
@@ -7474,7 +7474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 181.9656 50.165 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 181.9656 103.505 0)
 			(effects
 				(font
@@ -7955,7 +7955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 136.2456 103.505 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH"
+		(property "Footprint" "KBD:SW_Gateron_LowProfile_HotSwap_PTH_복사"
 			(at 147.6756 50.165 0)
 			(effects
 				(font
