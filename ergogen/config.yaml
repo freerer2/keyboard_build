@@ -382,10 +382,10 @@ cases:
       extrude: 1
   _outerWall:
     - name: xlBoard
-      extrude: 4
+      extrude: 5.3
   _innerWall:
     - name: board
-      extrude: 4
+      extrude: 5.3
   wall:
     - what: case
       name: _outerWall
