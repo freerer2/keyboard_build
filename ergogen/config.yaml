@@ -207,13 +207,13 @@ outlines:
     - what: circle
       radius: screwSize
       where:
-        ref: [matrix_ring_top]
-        shift: [-0.5kx, -0.5ky]
+        ref: [matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [matrix_ring_bottom]
-        shift: [-0.5kx, -0.5ky]
+        ref: [matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: screwSize
       where:
@@ -223,17 +223,17 @@ outlines:
       radius: screwSize
       where:
         ref: [thumbs_middle_cluster]
-        shift: [-0.5kx, -0.5ky]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_matrix_ring_top]
-        shift: [-0.5kx, -0.5ky]
+        ref: [mirror_matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_matrix_ring_bottom]
-        shift: [-0.5kx, -0.5ky]
+        ref: [mirror_matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: screwSize
       where:
@@ -243,18 +243,18 @@ outlines:
       radius: screwSize
       where:
         ref: [mirror_thumbs_middle_cluster]
-        shift: [-0.5kx, -0.5ky]
+        shift: [0.5kx, -0.5ky]
   standoff:
     - what: circle
       radius: standoffSize
       where:
-        ref: [matrix_ring_top]
-        shift: [-0.5kx, -0.5ky]
+        ref: [matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [matrix_ring_bottom]
-        shift: [-0.5kx, -0.5ky]
+        ref: [matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: standoffSize
       where:
@@ -264,17 +264,17 @@ outlines:
       radius: standoffSize
       where:
         ref: [thumbs_middle_cluster]
-        shift: [-0.5kx, -0.5ky]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_matrix_ring_top]
-        shift: [-0.5kx, -0.5ky]
+        ref: [mirror_matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_matrix_ring_bottom]
-        shift: [-0.5kx, -0.5ky]
+        ref: [mirror_matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
     - what: circle
       radius: standoffSize
       where:
@@ -284,7 +284,7 @@ outlines:
       radius: standoffSize
       where:
         ref: [mirror_thumbs_middle_cluster]
-        shift: [-0.5kx, -0.5ky]
+        shift: [0.5kx, -0.5ky]
   bumpon:
     - what: circle
       radius: bumponSize
@@ -379,13 +379,13 @@ pcbs:
       holeTopLeft:
         what: mountinghole
         where:
-          ref: [matrix_ring_top]
-          shift: [-0.5kx, -0.5ky]
+          ref: [matrix_pinky_top]
+          shift: [0.5kx, 0.5ky]
       holeBottomLeft:
         what: mountinghole
         where:
-          ref: [matrix_ring_bottom]
-          shift: [-0.5kx, -0.5ky]
+          ref: [matrix_pinky_bottom]
+          shift: [0.5kx, -0.5ky]
       holeTopInnerLeft:
         what: mountinghole
         where:
@@ -395,17 +395,17 @@ pcbs:
         what: mountinghole
         where:
           ref: [thumbs_middle_cluster]
-          shift: [-0.5kx, -0.5ky]
+          shift: [0.5kx, -0.5ky]
       holeTopRight:
         what: mountinghole
         where:
-          ref: [mirror_matrix_ring_top]
-          shift: [-0.5kx, -0.5ky]
+          ref: [mirror_matrix_pinky_top]
+          shift: [0.5kx, 0.5ky]
       holeBottomRight:
         what: mountinghole
         where:
-          ref: [mirror_matrix_ring_bottom]
-          shift: [-0.5kx, -0.5ky]
+          ref: [mirror_matrix_pinky_bottom]
+          shift: [0.5kx, -0.5ky]
       holeTopInnerRight:
         what: mountinghole
         where:
@@ -415,7 +415,7 @@ pcbs:
         what: mountinghole
         where:
           ref: [mirror_thumbs_middle_cluster]
-          shift: [-0.5kx, -0.5ky]
+          shift: [0.5kx, -0.5ky]
 cases:
   bottom:
     - name: board
