@@ -327,7 +327,7 @@ outlines:
         ref: [mirror_thumbs_inner_cluster]
         shift: [0.3kx, -0.3ky]
 pcbs:
-  tutorial:
+  lazyboy36:
     outlines:
       main:
         outline: board
