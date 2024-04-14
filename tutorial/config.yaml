@@ -8,15 +8,16 @@ units:
   # Double Padding Variables
   dpx: kx + 8
   dpy: ky + 8
-  # M2 Screw Inserts
+  # Defaults to M2 Screws
   screwSize: 1.5
   standoffSize: 2.5
-  # bumpon
-  bumponSize: 5.25
 points:
   zones:
     # The primary 6x4 key matrix, plus 3 modifiers.
     matrix:
+      # Position in center of KiCAD workspace.
+      anchor:
+        shift: [100, -100]
       # Choc spacing
       key:
         padding: 1ky
@@ -24,29 +25,37 @@ points:
       columns:
         # Hide the first two mods and the last mod.
         # Provide a Sofle-like column stagger.
+        outer:
+          rows.mod.skip: true
+          key.column_net: P14
         pinky:
-          key:
-            column_net: P16
+          rows.mod.skip: true
+          key.column_net: P16
         ring:
           key:
-            stagger: 10
+            stagger: 5
             column_net: P10
+          rows.mod.column_net: P16
         middle:
           key:
-            stagger: 5
+            stagger: 2.5
             column_net: P7
+          rows.mod.column_net: P10
         index:
-          rows.mod.skip: true
           key:
-            stagger: -5
+            stagger: -2.5
             column_net: P8
+          rows.mod.column_net: P7
         inner:
           rows.mod.skip: true
           key:
-            stagger: -5
+            stagger: -2.5
             column_net: P9
       rows:
         # Four main rows, one partial row.
+        mod:
+          row_net: P15
+          mirror.row_net: P6
         bottom:
           row_net: P18
           mirror.row_net: P5
@@ -56,9 +65,9 @@ points:
         top:
           row_net: P20
           mirror.row_net: P0
-      # Fix placement on KiCAD sheet.
-      anchor:
-        shift: [100, -100]
+        num:
+          row_net: P21
+          mirror.row_net: P1
     # Thumb cluster for Layer and Space keys.
     thumbs:
       # Choc spacing
@@ -67,24 +76,20 @@ points:
         spread: 1kx
       # Place thumbs where the inner mod would go.
       anchor:
-        ref: matrix_index_bottom
-        shift: [2, -28]
+        ref: matrix_inner_mod
+        shift: [2, -2]
       columns:
         # Fan thumbs out by -15 degrees.
-        outer:
+        layer:
           key:
-            splay: 5
-            shift: [-4, 2]
-            column_net: P7
-        middle:
-          key:
-            splay: -10
-            shift: [0, 0]
+            splay: -15
             column_net: P8
-        inner:
+        # Spacebar uses a 1.5 wide key.
+        space:
           key:
-            splay: -20
-            shift: [6, -3]
+            width: 1.5kx
+            splay: 75
+            shift: [2.5,-3.25]
             column_net: P9
       rows:
         # Thumbs only have one row.
@@ -94,7 +99,7 @@ points:
   # Mirror keyboard halves with a moderate rotation.
   rotate: -20
   mirror: &mirror
-    ref: matrix_inner_top
+    ref: matrix_inner_num
     distance: 2kx
 outlines:
   # Pure key outline.
@@ -112,82 +117,99 @@ outlines:
     - what: polygon
       operation: stack
       points:
-        - ref: matrix_pinky_top
+        - ref: matrix_outer_num
           shift: [-0.5px,0.5py]
-        - ref: matrix_ring_top
+        - ref: matrix_ring_num
           shift: [-0.5px,0.5py]
-        - ref: matrix_middle_top
+        - ref: matrix_middle_num
           shift: [-0.5px,0.5py]
-        - ref: matrix_middle_top
+        - ref: matrix_middle_num
+          shift: [0.5px,0.5py]
+        - ref: matrix_inner_num
           shift: [0.5px,0.5py]
         - ref: matrix_inner_top
           shift: [0.5px,0.5py]
-        - ref: matrix_inner_home
-          shift: [0.5px,0.5py]
-        - ref: mirror_matrix_inner_home
-          shift: [0.5px,0.5py]
         - ref: mirror_matrix_inner_top
           shift: [0.5px,0.5py]
-        - ref: mirror_matrix_middle_top
+        - ref: mirror_matrix_inner_num
           shift: [0.5px,0.5py]
-        - ref: mirror_matrix_middle_top
+        - ref: mirror_matrix_middle_num
+          shift: [0.5px,0.5py]
+        - ref: mirror_matrix_middle_num
           shift: [-0.5px,0.5py]
-        - ref: mirror_matrix_ring_top
+        - ref: mirror_matrix_ring_num
           shift: [-0.5px,0.5py]
-        - ref: mirror_matrix_pinky_top
+        - ref: mirror_matrix_outer_num
           shift: [-0.5px,0.5py]
-        - ref: mirror_matrix_pinky_bottom
+        - ref: mirror_matrix_outer_bottom
           shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbs_outer_cluster
+        - ref: mirror_matrix_ring_mod
           shift: [-0.5px,-0.5py]
-        - ref: mirror_thumbs_inner_cluster
+        - ref: mirror_thumbs_layer_cluster
+          shift: [-0.5px,-0.5py]
+        - ref: mirror_thumbs_space_cluster
+          shift: [-0.5py,-0.5px]
+        - ref: mirror_thumbs_space_cluster
           shift: [0.5py,-0.5px]
-        - ref: thumbs_inner_cluster
+        - ref: thumbs_space_cluster
           shift: [0.5py,-0.5px]
-        - ref: thumbs_outer_cluster
+        - ref: thumbs_space_cluster
+          shift: [-0.5py,-0.5px]
+        - ref: thumbs_layer_cluster
           shift: [-0.5px,-0.5py]
-        - ref: matrix_pinky_bottom
+        - ref: matrix_ring_mod
+          shift: [-0.5px,-0.5py]
+        - ref: matrix_outer_bottom
           shift: [-0.5px,-0.5py]
       fillet: 2
+  # Extra Large PCB board outline.
   xlBoard:
     - what: polygon
       operation: stack
       points:
-        - ref: matrix_pinky_top
+        - ref: matrix_outer_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: matrix_ring_top
+        - ref: matrix_ring_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: matrix_middle_top
+        - ref: matrix_middle_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: matrix_middle_top
+        - ref: matrix_middle_num
+          shift: [0.5dpx,0.5dpy]
+        - ref: matrix_inner_num
           shift: [0.5dpx,0.5dpy]
         - ref: matrix_inner_top
           shift: [0.5dpx,0.5dpy]
-        - ref: matrix_inner_home
-          shift: [0.5dpx,0.5dpy]
-        - ref: mirror_matrix_inner_home
-          shift: [0.5dpx,0.5dpy]
         - ref: mirror_matrix_inner_top
           shift: [0.5dpx,0.5dpy]
-        - ref: mirror_matrix_middle_top
+        - ref: mirror_matrix_inner_num
           shift: [0.5dpx,0.5dpy]
-        - ref: mirror_matrix_middle_top
+        - ref: mirror_matrix_middle_num
+          shift: [0.5dpx,0.5dpy]
+        - ref: mirror_matrix_middle_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: mirror_matrix_ring_top
+        - ref: mirror_matrix_ring_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: mirror_matrix_pinky_top
+        - ref: mirror_matrix_outer_num
           shift: [-0.5dpx,0.5dpy]
-        - ref: mirror_matrix_pinky_bottom
+        - ref: mirror_matrix_outer_bottom
           shift: [-0.5dpx,-0.5dpy]
-        - ref: mirror_thumbs_outer_cluster
+        - ref: mirror_matrix_ring_mod
           shift: [-0.5dpx,-0.5dpy]
-        - ref: mirror_thumbs_inner_cluster
+        - ref: mirror_thumbs_layer_cluster
+          shift: [-0.5dpx,-0.5dpy]
+        - ref: mirror_thumbs_space_cluster
+          shift: [-0.5dpy,-0.5dpx]
+        - ref: mirror_thumbs_space_cluster
           shift: [0.5dpy,-0.5dpx]
-        - ref: thumbs_inner_cluster
+        - ref: thumbs_space_cluster
           shift: [0.5dpy,-0.5dpx]
-        - ref: thumbs_outer_cluster
+        - ref: thumbs_space_cluster
+          shift: [-0.5dpy,-0.5dpx]
+        - ref: thumbs_layer_cluster
           shift: [-0.5dpx,-0.5dpy]
-        - ref: matrix_pinky_bottom
+        - ref: matrix_ring_mod
+          shift: [-0.5dpx,-0.5dpy]
+        - ref: matrix_outer_bottom
           shift: [-0.5dpx,-0.5dpy]
       fillet: 2
   # Combination preview showing outline and keys.
@@ -199,131 +221,92 @@ outlines:
     - what: circle
       radius: screwSize
       where:
-        ref: [matrix_pinky_top]
-        shift: [0.5kx, 0.5ky]
+        ref: [matrix_outer_num]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [matrix_pinky_bottom]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_outer_bottom]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [matrix_index_top]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_index_num]
+        shift: [0.5kx, -0.4ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [thumbs_middle_cluster]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_index_mod]
+        shift: [0.5kx, -0.35ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_matrix_pinky_top]
-        shift: [0.5kx, 0.5ky]
+        ref: [mirror_matrix_outer_num]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_matrix_pinky_bottom]
-        shift: [0.5kx, -0.5ky]
+        ref: [mirror_matrix_outer_bottom]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_matrix_index_top]
-        shift: [0.5kx, -0.5ky]
+        ref: [mirror_matrix_index_num]
+        shift: [0.5kx, -0.4ky]
     - what: circle
       radius: screwSize
       where:
-        ref: [mirror_thumbs_middle_cluster]
-        shift: [0.5kx, -0.5ky]
+        ref: [mirror_matrix_index_mod]
+        shift: [0.5kx, -0.35ky]
   standoff:
     - what: circle
       radius: standoffSize
       where:
-        ref: [matrix_pinky_top]
-        shift: [0.5kx, 0.5ky]
+        ref: [matrix_outer_num]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [matrix_pinky_bottom]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_outer_bottom]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [matrix_index_top]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_index_num]
+        shift: [0.5kx, -0.4ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [thumbs_middle_cluster]
-        shift: [0.5kx, -0.5ky]
+        ref: [matrix_index_mod]
+        shift: [0.5kx, -0.35ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_matrix_pinky_top]
-        shift: [0.5kx, 0.5ky]
+        ref: [mirror_matrix_outer_num]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_matrix_pinky_bottom]
-        shift: [0.5kx, -0.5ky]
+        ref: [mirror_matrix_outer_bottom]
+        shift: [0.5kx, -0.3ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_matrix_index_top]
-        shift: [0.5kx, -0.5ky]
+        ref: [mirror_matrix_index_num]
+        shift: [0.5kx, -0.4ky]
     - what: circle
       radius: standoffSize
       where:
-        ref: [mirror_thumbs_middle_cluster]
-        shift: [0.4kx, -0.4ky]
-  bumpon:
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [matrix_pinky_top]
-        shift: [-0.3kx, 0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [matrix_pinky_bottom]
-        shift: [-0.3kx, -0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [matrix_inner_top]
-        shift: [0.3kx, 0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [thumbs_inner_cluster]
-        shift: [0.3kx, -0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [mirror_matrix_pinky_top]
-        shift: [-0.3kx, 0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [mirror_matrix_pinky_bottom]
-        shift: [-0.3kx, -0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [mirror_matrix_inner_top]
-        shift: [0.3kx, 0.4ky]
-    - what: circle
-      radius: bumponSize
-      where:
-        ref: [mirror_thumbs_inner_cluster]
-        shift: [0.3kx, -0.4ky]
+        ref: [mirror_matrix_index_mod]
+        shift: [0.5kx, -0.35ky]
 pcbs:
-  lazyboy36:
+  tutorial:
     outlines:
       main:
-        outline: board
+        outline:
+          board
     footprints:
+      # Hotswap Choc keys.
       choc_hotswap:
         what: choc
         where: true
@@ -333,6 +316,7 @@ pcbs:
           hotswap: true
           from: "{{column_net}}"
           to: "{{colrow}}"
+      # Through Hole or SMD Diodes
       diode:
         what: diode
         where: true
@@ -341,14 +325,16 @@ pcbs:
           to: "{{row_net}}"
         adjust:
           shift: [0, -5]
+      # Face Down Arduino Pro Micro
       promicro:
         what: promicro
         params:
           orientation: "down"
         where:
-          ref.aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
           shift: [0,0]
           rotate: -90
+      # OLED Screen
       oled:
         what: oled
         params:
@@ -356,71 +342,73 @@ pcbs:
           SDA: P2
           SCL: P3
         where:
-          ref.aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          ref.aggregate.parts: [matrix_inner_home, mirror_matrix_inner_home]
           shift: [-6,-19]
           rotate: 90
+      # Four Pin Reset Button
       reset:
         what: button
         params:
           from: GND
           to: RST
         where:
-          ref.aggregate.parts: [matrix_index_bottom, mirror_matrix_index_bottom]
-          shift: [0, -34]
+          ref.aggregate.parts: [matrix_index_mod, mirror_matrix_index_mod]
+          shift: [0, -1]
           rotate: -90
+      # Mounting Holes
       holeTopLeft:
         what: mountinghole
         where:
-          ref: [matrix_pinky_top]
-          shift: [0.5kx, 0.5ky]
+          ref: [matrix_outer_num]
+          shift: [0.5kx, -0.3ky]
       holeBottomLeft:
         what: mountinghole
         where:
-          ref: [matrix_pinky_bottom]
-          shift: [0.5kx, -0.5ky]
+          ref: [matrix_outer_bottom]
+          shift: [0.5kx, -0.3ky]
       holeTopInnerLeft:
         what: mountinghole
         where:
-          ref: [matrix_index_top]
-          shift: [0.5kx, -0.5ky]
+          ref: [matrix_index_num]
+          shift: [0.5kx, -0.4ky]
       holeBottomInnerLeft:
         what: mountinghole
         where:
-          ref: [thumbs_middle_cluster]
-          shift: [0.5kx, -0.5ky]
+          ref: [matrix_index_mod]
+          shift: [0.5kx, -0.35ky]
       holeTopRight:
         what: mountinghole
         where:
-          ref: [mirror_matrix_pinky_top]
-          shift: [0.5kx, 0.5ky]
+          ref: [mirror_matrix_outer_num]
+          shift: [0.5kx, -0.3ky]
       holeBottomRight:
         what: mountinghole
         where:
-          ref: [mirror_matrix_pinky_bottom]
-          shift: [0.5kx, -0.5ky]
+          ref: [mirror_matrix_outer_bottom]
+          shift: [0.5kx, -0.3ky]
       holeTopInnerRight:
         what: mountinghole
         where:
-          ref: [mirror_matrix_index_top]
-          shift: [0.5kx, -0.5ky]
+          ref: [mirror_matrix_index_num]
+          shift: [0.5kx, -0.4ky]
       holeBottomInnerRight:
         what: mountinghole
         where:
-          ref: [mirror_thumbs_middle_cluster]
-          shift: [0.5kx, -0.5ky]
+          ref: [mirror_matrix_index_mod]
+          shift: [0.5kx, -0.35ky]
 cases:
   bottom:
     - name: board
-      extrude: 2
+      extrude: 1
   xlBottom:
     - name: xlBoard
-      extrude: 2
+      extrude: 1
   _outerWall:
     - name: xlBoard
-      extrude: 6.6
+      extrude: 5.6
   _innerWall:
     - name: board
-      extrude: 6.6
+      extrude: 5.6
   wall:
     - what: case
       name: _outerWall
@@ -430,13 +418,10 @@ cases:
       operation: subtract
   _holes:
     - name: mounting
-      extrude: 5
+      extrude: 4
   _standoffs:
     - name: standoff
-      extrude: 5
-  _bumpon:
-    - name: bumpon
-      extrude: 1
+      extrude: 4
   case:
     - what: case
       name: _standoffs
@@ -450,6 +435,3 @@ cases:
     - what: case
       name: wall
       operation: add
-    - what: case
-      name: _bumpon
-      operation: subtract
