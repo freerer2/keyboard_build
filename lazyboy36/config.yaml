@@ -417,10 +417,10 @@ cases:
       extrude: 2
   _outerWall:
     - name: xlBoard
-      extrude: 5.6
+      extrude: 6.6
   _innerWall:
     - name: board
-      extrude: 5.6
+      extrude: 6.6
   wall:
     - what: case
       name: _outerWall
@@ -430,10 +430,10 @@ cases:
       operation: subtract
   _holes:
     - name: mounting
-      extrude: 4
+      extrude: 5
   _standoffs:
     - name: standoff
-      extrude: 4
+      extrude: 5
   _bumpon:
     - name: bumpon
       extrude: 1
