@@ -1,38 +1,53 @@
 # LAZYBOY36
 
-아주 얇은 36키, 유선, 핫스왑, 모노블럭 스플릿, 컬럼스태거 기계식키보드  
-스플릿키보드를 휴대하려면 trrs 케이블, usb 케이블, 오른쪽 키보드, 왼쪽 키보드  
-아주 주렁주렁 정신이 없는 당신을 위한  
-아주 얇은 (키캡 없이 범폰 포함)
+스플릿 키보드는 휴대시 trrs 케이블, usb 케이블, 오른쪽 키보드, 왼쪽 키보드  
+아주 주렁주렁 정신이 없습니다.
 
-## Quick Links
-- Ergogen Config: [config.yaml](config.yaml)
-- PCB Design: [output/pcbs/lazyboy36.kicad_pcb](output/pcbs/lazyboy36.kicad_pcb)
-- 3D Printable case: [output/cases/case.stl](output/cases/case.stl)
-- QMK Config: [qmk_config/](qmk_config/)
-  
-## Ergogen command
-```bash
-ergogen . && for i in output/cases/*.jscad; do npx @jscad/cli@1 "$i" -of stla; done
-```
+이런 당신을 위한 키보드 Lazyboy36입니다.
 
 ## Features
 
+1. 당신의 손가락 건강을 위한 컬럼스태거 구조
+2. 당신의 손목 건강을 위한 36키
+3. 당신의 어깨 건강을 위한 스플릿 구조
+4. 당신의 취향을 위한 핫스왑 지원
+5. 빌드의 범용성을 위한 Pro Micro 모양의 MCU 지원
+6. 배터리 걱정할 필요없는 ONLY 유선키보드
+7. 휴대성이 좋은 아주 얇은 키보드
+    - 키캡 없이 범폰 포함 총 높이 : 약 16.8mm
+    - 케이스 높이 : 6.6mm
+8. 그 유명한 Miryoku 배열의 키맵을 한국인의 손에 맞춘 개조판 펌웨어 기본 지원
+    - [lazybones](https://github.com/freerer2/qmk_firmware/tree/master/users/lazybones)
+
+## Quick Links
+-   Ergogen Config: [config.yaml](config.yaml)
+    - Ergogen command
+    ```bash
+    ergogen . && for i in output/cases/*.jscad; do npx @jscad/cli@1 "$i" -of stla; done
+    ```
+-   PCB Design: [output/pcbs/lazyboy36.kicad_pcb](output/pcbs/lazyboy36.kicad_pcb)
+-   3D Printable case: [output/cases/case.stl](output/cases/case.stl)
+-   QMK Config: [qmk_config/](qmk_config/)
+
 ## Bill of Materials (BOM)
-|Part name                        |Amount|Link                                                |
-|:--------------------------------|-----:|:---------------------------------------------------|
-|MCU                              |1     |                                                    |
-|OLED(optional)                   |1     |                                                    |
-|Choc v1 switchs                  |36    |                                                    |
-|Choc v1 keycaps                  |36    |                                                    |
-|1N4148 SOD123 or DO-35           |36    |https://ko.aliexpress.com/item/1005002882901030.html|
-|Kailh low profile hot-swap socket|36    |https://ko.aliexpress.com/item/1005006345544915.html|
-|Heated screw insert, M2x3x3.2    |8     |https://ko.aliexpress.com/item/1005004870993068.html|
-|Screws, M2 4mm                   |8     |https://ko.aliexpress.com/item/4001248931159.html   |
-|Black 10x2mm bumpon              |8     |https://ko.aliexpress.com/item/1005005287385986.html|
-|Button, 4x4x1.5                  |1     |https://ko.aliexpress.com/item/1005003918757433.html|
+
+| Part name                         | Amount | Link                                                 |
+| :-------------------------------- | -----: | :--------------------------------------------------- |
+| MCU                               |      1 |                                                      |
+| OLED(optional)                    |      1 |                                                      |
+| Choc v1 switchs                   |     36 |                                                      |
+| Choc v1 keycaps                   |     36 |                                                      |
+| 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html |
+| Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html |
+| Heated screw insert, M2x3x3.2     |      8 | https://ko.aliexpress.com/item/1005004870993068.html |
+| Screws, M2 4mm                    |      8 | https://ko.aliexpress.com/item/4001248931159.html    |
+| Black 10x2mm bumpon               |      8 | https://ko.aliexpress.com/item/1005005287385986.html |
+| Button, 4x4x1.5                   |      1 | https://ko.aliexpress.com/item/1005003918757433.html |
 
 # TODO-LIST
+## ERGOGEN
+
+-   [x] 키보드 정의
 
 ## PCB
 
@@ -41,18 +56,18 @@ ergogen . && for i in output/cases/*.jscad; do npx @jscad/cli@1 "$i" -of stla; d
 ## FIRMWARE
 
 -   [ ] QMK
--   [ ] VIA
+-   [ ] ~~VIA~~(고민중)
 
 ## ETC
 
 -   [ ] README 작성
     -   [x] Introduction
+    -   [x] Features
     -   [ ] Quick Links
         -   [x] ergogen config yaml
         -   [x] PCB
         -   [x] CASE
         -   [ ] Firmware
             -   [ ] QMK
-            -   [ ] VIA
-    -   [ ] Features
+            -   [ ] ~~VIA~~(고민중)
     -   [x] BOM
