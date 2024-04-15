@@ -58,6 +58,21 @@
 -   [ ] QMK
 -   [ ] ~~VIA~~(고민중)
 
+## BUILD
+-   [ ] 재료준비
+    -   [ ] PCB
+        -   [ ] MCU
+        -   [ ] SWITCH
+        -   [ ] KEYCAPS
+        -   [x] DIODE
+        -   [ ] HEADER PIN
+        -   [ ] HOTSWAP SOCKET
+        -   [x] RST BUTTON
+    -   [ ] CASE
+        -   [ ] INSERT
+        -   [ ] SCREWS
+        -   [x] BUMPON
+
 ## ETC
 
 -   [ ] README 작성
