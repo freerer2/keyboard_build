@@ -20,8 +20,9 @@
     - ~~케이스 높이 : 6.6mm~~
 
 ## Quick Links
+
 -   Ergogen Config: [config.yaml](config.yaml)
-    - Ergogen command
+    -   Ergogen command
     ```bash
     ergogen . && for i in output/cases/*.jscad; do npx @jscad/cli@1 "$i" -of stla; done
     ```
@@ -33,9 +34,9 @@
 
 | Part name                         | Amount | Link                                                 |
 | :-------------------------------- | -----: | :--------------------------------------------------- |
-| MCU                               |      1 |                                                      |
+| MCU(such as the Pro Micro)        |      1 |                                                      |
 | OLED(optional)                    |      1 |                                                      |
-| Choc v1 switchs                   |     36 |                                                      |
+| Choc v1 switchs(PG1350)           |     36 |                                                      |
 | Choc v1 keycaps                   |     36 |                                                      |
 | 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html |
 | Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html |
@@ -45,6 +46,7 @@
 | Button, 4x4x1.5                   |      1 | https://ko.aliexpress.com/item/1005003918757433.html |
 
 # TODO-LIST
+
 ## ERGOGEN
 
 -   [x] 키보드 정의
@@ -59,13 +61,15 @@
 -   [ ] ~~VIA~~(고민중)
 
 ## BUILD
+
 -   [ ] 재료준비
     -   [ ] PCB
-        -   [ ] MCU
-        -   [ ] SWITCH
-        -   [ ] KEYCAPS
-        -   [x] DIODE
-        -   [ ] HEADER PIN
+        -   [ ] MCU : RP2040 PROMICRO
+        -   [ ] SWITCH : PG1350
+        -   [ ] KEYCAPS : ??
+        -   [x] DIODE : SOD123
+        -   [ ] HEADER PIN FEMALE : 315-43-112-41-003000
+        -   [ ] HEADER PIN MALE : 3320-0-00-15-00-00-03-0
         -   [ ] HOTSWAP SOCKET
         -   [x] RST BUTTON
     -   [ ] CASE
