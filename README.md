@@ -1,6 +1,6 @@
 ## Note
 빌드 한 키보드의 부품 정보 모음.
-오픈소스의 수정없이 빌드한건 목록에 없음
+내 손길이 조금이라도 닿은 경우에만 목록에 추가됨.
 
 ## Keyboard List
 - [blackpill_chayribdis_nano](/blackpill_chayribdis_nano/) : chayribdis_nano 블랙필버전(케이스 수정)

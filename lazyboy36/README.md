@@ -10,14 +10,14 @@
 1. 당신의 손가락 건강을 위한 컬럼스태거 구조
 2. 당신의 손목 건강을 위한 36키
 3. 당신의 어깨 건강을 위한 스플릿 구조
-4. 당신의 취향을 위한 핫스왑 지원
+4. 당신의 타건감 취향을 위한 핫스왑 지원
 5. 빌드의 범용성을 위한 Pro Micro 모양의 MCU 지원
 6. 배터리 걱정할 필요없는 ONLY 유선키보드
-7. 휴대성이 좋은 아주 얇은 키보드
-    - 키캡 없이 범폰 포함 총 높이 : 약 14mm
-    - 케이스 높이 : 6.6mm
-8. 그 유명한 Miryoku 배열의 키맵을 한국인의 손에 맞춘 개조판 펌웨어 기본 지원
+7. 그 유명한 Miryoku 배열의 키맵을 한국인의 손에 맞춘 개조판 펌웨어 기본 지원
     - [lazybones](https://github.com/freerer2/qmk_firmware/tree/master/users/lazybones)
+8. ~~휴대성이 좋은 아주 얇은 키보드~~(증명필요)
+    - ~~키캡 없이 범폰 포함 총 높이 : 약 14mm~~
+    - ~~케이스 높이 : 6.6mm~~
 
 ## Quick Links
 -   Ergogen Config: [config.yaml](config.yaml)
