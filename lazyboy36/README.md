@@ -37,7 +37,7 @@
 | MCU(such as the Pro Micro)        |      1 |                                                      |
 | OLED(optional)                    |      1 |                                                      |
 | Choc v1 switchs(PG1350)           |     36 |                                                      |
-| Choc v1 keycaps                   |     36 |                                                      |
+| Choc v1 keycaps                   |     36 | https://github.com/freerer2/choc_keycaps             |
 | 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html |
 | Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html |
 | Heated screw insert, M2x3x3.2     |      8 | https://ko.aliexpress.com/item/1005004870993068.html |
@@ -66,7 +66,7 @@
     -   [ ] PCB
         -   [ ] MCU : RP2040 PROMICRO
         -   [ ] SWITCH : PG1350
-        -   [ ] KEYCAPS : ??
+        -   [ ] KEYCAPS : MBK
         -   [x] DIODE : SOD123
         -   [ ] HEADER PIN FEMALE : 315-43-112-41-003000
         -   [ ] HEADER PIN MALE : 3320-0-00-15-00-00-03-0
