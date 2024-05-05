@@ -36,7 +36,7 @@
 
 | Part name                         | Amount | Link                                                 |
 | :-------------------------------- | -----: | :--------------------------------------------------- |
-| PCB                               |      1 | [/output/pcbs/gerber.zip](/output/pcbs/gerber.zip)   |
+| PCB                               |      1 | [/lazyboy36/output/pcbs/gerber.zip](/lazyboy36/output/pcbs/gerber.zip)   |
 | MCU(such as the Pro Micro)        |      1 |                                                      |
 | OLED(optional)                    |      1 |                                                      |
 | Choc v1 switchs(PG1350)           |     36 |                                                      |
@@ -49,7 +49,7 @@
 
 | Part name                     | Amount | Link                                                                                                                   |
 | :---------------------------- | -----: | :--------------------------------------------------------------------------------------------------------------------- |
-| Case                          |      1 | [/keyboard_build/blob/main/lazyboy36/output/cases/case.stl](/keyboard_build/blob/main/lazyboy36/output/cases/case.stl) |
+| Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) |
 | Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                                                                   |
 | Screws, M2 4mm                |      8 | https://ko.aliexpress.com/item/4001248931159.html                                                                      |
 | Heated screw insert, M2x3x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                                                                   |
