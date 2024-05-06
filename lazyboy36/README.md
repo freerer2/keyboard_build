@@ -52,7 +52,7 @@
 | :---------------------------- | -----: | :------------------------------------------------------------------- | :-------------- |
 | Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) | JLC 주문완료    |
 | Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                 | 있음            |
-| Screws, M2 3mm                |      8 | https://smartstore.naver.com/boltmall/products/106695149             | 네이버 장바구니 | ㅔ |
+| Screws, M2 3mm                |      8 | https://smartstore.naver.com/boltmall/products/106695149             | 네이버 장바구니 |
 | Heated screw insert, M2x2x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                 | 알리 장바구니   |
 
 # TODO-LIST
