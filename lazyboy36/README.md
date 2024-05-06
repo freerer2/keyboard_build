@@ -17,7 +17,7 @@
    - [lazybones](https://github.com/freerer2/qmk_firmware/tree/master/users/lazybones)
 8. ~~휴대성이 좋은 아주 얇은 키보드~~(증명필요)
    - ~~키캡 없이 범폰 포함 총 높이 : 약 14mm~~
-   - ~~케이스 높이 : 6.6mm~~
+   - ~~케이스 높이 : 5.2mm~~
 
 ## Quick Links
 
@@ -34,25 +34,26 @@
 
 ### Keyboard
 
-| Part name                         | Amount | Link                                                 |
-| :-------------------------------- | -----: | :--------------------------------------------------- |
-| PCB                               |      1 | [/lazyboy36/output/pcbs/gerber.zip](/lazyboy36/output/pcbs/gerber.zip)   |
-| MCU(such as the Pro Micro)        |      1 |                                                      |
-| OLED(optional)                    |      1 |                                                      |
-| Choc v1 switchs(PG1350)           |     36 |                                                      |
-| Choc v1 keycaps                   |     36 | https://github.com/freerer2/choc_keycaps             |
-| 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html |
-| Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html |
-| Button, 4x4x1.5                   |      1 | https://ko.aliexpress.com/item/1005003918757433.html |
+| Part name                         | Amount | Link                                                                   | note          |
+| :-------------------------------- | -----: | :--------------------------------------------------------------------- | :------------ |
+| PCB                               |      1 | [/lazyboy36/output/pcbs/gerber.zip](/lazyboy36/output/pcbs/gerber.zip) | JLC 주문완료  |
+| MCU(such as the Pro Micro)        |      1 |                                                                        | 알리 장바구니 |
+| Pin headers(optional)             |     24 |                                                                        | 디바이스마트  |
+| OLED(optional)                    |      1 |                                                                        |
+| Choc v1 switchs(PG1350)           |     36 | https://ko.aliexpress.com/item/1005005883472162.html                   | 알리 장바구니 |
+| Choc v1 keycaps                   |     36 | https://github.com/freerer2/choc_keycaps                               | JLC 주문완료  |
+| 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html                   | 있음          |
+| Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html                   | 알리 장바구니 |
+| Button, 4x4x1.5                   |      1 | https://ko.aliexpress.com/item/1005003918757433.html                   | 있음          |
 
 ### Case
 
-| Part name                     | Amount | Link                                                                                                                   |
-| :---------------------------- | -----: | :--------------------------------------------------------------------------------------------------------------------- |
-| Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) |
-| Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                                                                   |
-| Screws, M2 4mm                |      8 | https://ko.aliexpress.com/item/4001248931159.html                                                                      |
-| Heated screw insert, M2x3x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                                                                   |
+| Part name                     | Amount | Link                                                                 | note            |
+| :---------------------------- | -----: | :------------------------------------------------------------------- | :-------------- |
+| Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) | JLC 주문완료    |
+| Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                 | 있음            |
+| Screws, M2 3mm                |      8 | https://smartstore.naver.com/boltmall/products/106695149             | 네이버 장바구니 | ㅔ |
+| Heated screw insert, M2x2x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                 | 알리 장바구니   |
 
 # TODO-LIST
 

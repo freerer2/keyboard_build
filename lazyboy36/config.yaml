@@ -49,13 +49,13 @@ points:
         # Four main rows, one partial row.
         bottom:
           row_net: P18
-          ##mirror.row_net: P5
+          mirror.row_net: P5
         home:
           row_net: P19
-          #mirror.row_net: P4
+          mirror.row_net: P4
         top:
           row_net: P20
-          #mirror.row_net: P0
+          mirror.row_net: P0
       # Fix placement on KiCAD sheet.
       anchor:
         shift: [100, -100]
@@ -90,7 +90,7 @@ points:
         # Thumbs only have one row.
         cluster:
           row_net: P15
-          #mirror.row_net: P6
+          mirror.row_net: P6
   # Mirror keyboard halves with a moderate rotation.
   rotate: -20
   mirror: &mirror
@@ -124,24 +124,24 @@ outlines:
           shift: [0.5px,0.5py]
         - ref: matrix_inner_home
           shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_inner_home
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_inner_top
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_middle_top
-        #   shift: [0.5px,0.5py]
-        # - ref: mirror_matrix_middle_top
-        #   shift: [-0.5px,0.5py]
-        # - ref: mirror_matrix_ring_top
-        #   shift: [-0.5px,0.5py]
-        # - ref: mirror_matrix_pinky_top
-        #   shift: [-0.5px,0.5py]
-        # - ref: mirror_matrix_pinky_bottom
-        #   shift: [-0.5px,-0.5py]
-        # - ref: mirror_thumbs_outer_cluster
-        #   shift: [-0.5px,-0.5py]
-        # - ref: mirror_thumbs_inner_cluster
-        #   shift: [0.5py,-0.5px]
+        - ref: mirror_matrix_inner_home
+          shift: [0.5px,0.5py]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5px,0.5py]
+        - ref: mirror_matrix_middle_top
+          shift: [0.5px,0.5py]
+        - ref: mirror_matrix_middle_top
+          shift: [-0.5px,0.5py]
+        - ref: mirror_matrix_ring_top
+          shift: [-0.5px,0.5py]
+        - ref: mirror_matrix_pinky_top
+          shift: [-0.5px,0.5py]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [-0.5px,-0.5py]
+        - ref: mirror_thumbs_outer_cluster
+          shift: [-0.5px,-0.5py]
+        - ref: mirror_thumbs_inner_cluster
+          shift: [0.5py,-0.5px]
         - ref: thumbs_inner_cluster
           shift: [0.5py,-0.5px]
         - ref: thumbs_outer_cluster
@@ -165,24 +165,24 @@ outlines:
           shift: [0.5dpx,0.5dpy]
         - ref: matrix_inner_home
           shift: [0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_inner_home
-        #   shift: [0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_inner_top
-        #   shift: [0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_middle_top
-        #   shift: [0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_middle_top
-        #   shift: [-0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_ring_top
-        #   shift: [-0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_pinky_top
-        #   shift: [-0.5dpx,0.5dpy]
-        # - ref: mirror_matrix_pinky_bottom
-        #   shift: [-0.5dpx,-0.5dpy]
-        # - ref: mirror_thumbs_outer_cluster
-        #   shift: [-0.5dpx,-0.5dpy]
-        # - ref: mirror_thumbs_inner_cluster
-        #   shift: [0.5dpy,-0.5dpx]
+        - ref: mirror_matrix_inner_home
+          shift: [0.5dpx,0.5dpy]
+        - ref: mirror_matrix_inner_top
+          shift: [0.5dpx,0.5dpy]
+        - ref: mirror_matrix_middle_top
+          shift: [0.5dpx,0.5dpy]
+        - ref: mirror_matrix_middle_top
+          shift: [-0.5dpx,0.5dpy]
+        - ref: mirror_matrix_ring_top
+          shift: [-0.5dpx,0.5dpy]
+        - ref: mirror_matrix_pinky_top
+          shift: [-0.5dpx,0.5dpy]
+        - ref: mirror_matrix_pinky_bottom
+          shift: [-0.5dpx,-0.5dpy]
+        - ref: mirror_thumbs_outer_cluster
+          shift: [-0.5dpx,-0.5dpy]
+        - ref: mirror_thumbs_inner_cluster
+          shift: [0.5dpy,-0.5dpx]
         - ref: thumbs_inner_cluster
           shift: [0.5dpy,-0.5dpx]
         - ref: thumbs_outer_cluster
@@ -216,26 +216,26 @@ outlines:
       where:
         ref: [thumbs_middle_cluster]
         shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: screwSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_top]
-    #     shift: [0.5kx, 0.5ky]
-    # - what: circle
-    #   radius: screwSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_bottom]
-    #     shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: screwSize
-    #   where:
-    #     ref: [mirror_matrix_index_top]
-    #     shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: screwSize
-    #   where:
-    #     ref: [mirror_thumbs_middle_cluster]
-    #     shift: [0.5kx, -0.5ky]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: [mirror_matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: [mirror_matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: [mirror_matrix_index_top]
+        shift: [0.5kx, -0.5ky]
+    - what: circle
+      radius: screwSize
+      where:
+        ref: [mirror_thumbs_middle_cluster]
+        shift: [0.5kx, -0.5ky]
   standoff:
     - what: circle
       radius: standoffSize
@@ -257,26 +257,26 @@ outlines:
       where:
         ref: [thumbs_middle_cluster]
         shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: standoffSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_top]
-    #     shift: [0.5kx, 0.5ky]
-    # - what: circle
-    #   radius: standoffSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_bottom]
-    #     shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: standoffSize
-    #   where:
-    #     ref: [mirror_matrix_index_top]
-    #     shift: [0.5kx, -0.5ky]
-    # - what: circle
-    #   radius: standoffSize
-    #   where:
-    #     ref: [mirror_thumbs_middle_cluster]
-    #     shift: [0.4kx, -0.4ky]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: [mirror_matrix_pinky_top]
+        shift: [0.5kx, 0.5ky]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: [mirror_matrix_pinky_bottom]
+        shift: [0.5kx, -0.5ky]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: [mirror_matrix_index_top]
+        shift: [0.5kx, -0.5ky]
+    - what: circle
+      radius: standoffSize
+      where:
+        ref: [mirror_thumbs_middle_cluster]
+        shift: [0.4kx, -0.4ky]
   bumpon:
     - what: circle
       radius: bumponSize
@@ -298,26 +298,26 @@ outlines:
       where:
         ref: [thumbs_inner_cluster]
         shift: [0.3kx, -0.4ky]
-    # - what: circle
-    #   radius: bumponSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_top]
-    #     shift: [-0.3kx, 0.4ky]
-    # - what: circle
-    #   radius: bumponSize
-    #   where:
-    #     ref: [mirror_matrix_pinky_bottom]
-    #     shift: [-0.3kx, -0.4ky]
-    # - what: circle
-    #   radius: bumponSize
-    #   where:
-    #     ref: [mirror_matrix_inner_top]
-    #     shift: [0.3kx, 0.4ky]
-    # - what: circle
-    #   radius: bumponSize
-    #   where:
-    #     ref: [mirror_thumbs_inner_cluster]
-    #     shift: [0.3kx, -0.4ky]
+    - what: circle
+      radius: bumponSize
+      where:
+        ref: [mirror_matrix_pinky_top]
+        shift: [-0.3kx, 0.4ky]
+    - what: circle
+      radius: bumponSize
+      where:
+        ref: [mirror_matrix_pinky_bottom]
+        shift: [-0.3kx, -0.4ky]
+    - what: circle
+      radius: bumponSize
+      where:
+        ref: [mirror_matrix_inner_top]
+        shift: [0.3kx, 0.4ky]
+    - what: circle
+      radius: bumponSize
+      where:
+        ref: [mirror_thumbs_inner_cluster]
+        shift: [0.3kx, -0.4ky]
 pcbs:
   lazyboy36:
     outlines:
@@ -388,26 +388,26 @@ pcbs:
         where:
           ref: [thumbs_middle_cluster]
           shift: [0.5kx, -0.5ky]
-      # holeTopRight:
-      #   what: mountinghole
-      #   where:
-      #     ref: [mirror_matrix_pinky_top]
-      #     shift: [0.5kx, 0.5ky]
-      # holeBottomRight:
-      #   what: mountinghole
-      #   where:
-      #     ref: [mirror_matrix_pinky_bottom]
-      #     shift: [0.5kx, -0.5ky]
-      # holeTopInnerRight:
-      #   what: mountinghole
-      #   where:
-      #     ref: [mirror_matrix_index_top]
-      #     shift: [0.5kx, -0.5ky]
-      # holeBottomInnerRight:
-      #   what: mountinghole
-      #   where:
-      #     ref: [mirror_thumbs_middle_cluster]
-      #     shift: [0.5kx, -0.5ky]
+      holeTopRight:
+        what: mountinghole
+        where:
+          ref: [mirror_matrix_pinky_top]
+          shift: [0.5kx, 0.5ky]
+      holeBottomRight:
+        what: mountinghole
+        where:
+          ref: [mirror_matrix_pinky_bottom]
+          shift: [0.5kx, -0.5ky]
+      holeTopInnerRight:
+        what: mountinghole
+        where:
+          ref: [mirror_matrix_index_top]
+          shift: [0.5kx, -0.5ky]
+      holeBottomInnerRight:
+        what: mountinghole
+        where:
+          ref: [mirror_thumbs_middle_cluster]
+          shift: [0.5kx, -0.5ky]
 cases:
   bottom:
     - name: board
@@ -417,10 +417,10 @@ cases:
       extrude: 2
   _outerWall:
     - name: xlBoard
-      extrude: 6.6
+      extrude: 5.2
   _innerWall:
     - name: board
-      extrude: 6.6
+      extrude: 5.2
   wall:
     - what: case
       name: _outerWall
@@ -430,10 +430,10 @@ cases:
       operation: subtract
   _holes:
     - name: mounting
-      extrude: 5
+      extrude: 4
   _standoffs:
     - name: standoff
-      extrude: 5
+      extrude: 4
   _bumpon:
     - name: bumpon
       extrude: 1
