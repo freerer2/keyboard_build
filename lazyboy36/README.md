@@ -9,7 +9,7 @@
 
 1. 당신의 손가락 건강을 위한 컬럼스태거 구조
 2. 당신의 손목 건강을 위한 36키
-3. 당신의 어깨 건강을 위한 스플릿 구조
+3. 당신의 어깨 건강을 위한 20도 각도의 스플릿 구조
 4. 당신의 타건감 취향을 위한 핫스왑 지원
 5. 빌드의 범용성을 위한 Pro Micro 모양의 MCU 지원
 6. 배터리 걱정할 필요없는 ONLY 유선키보드
@@ -37,23 +37,23 @@
 | Part name                         | Amount | Link                                                                   | note          |
 | :-------------------------------- | -----: | :--------------------------------------------------------------------- | :------------ |
 | PCB                               |      1 | [/lazyboy36/output/pcbs/gerber.zip](/lazyboy36/output/pcbs/gerber.zip) | JLC 주문완료  |
-| MCU(such as the Pro Micro)        |      1 |                                                                        | 알리 장바구니 |
-| Pin headers(optional)             |     24 |                                                                        | 디바이스마트  |
+| MCU(such as the Pro Micro)        |      1 |                                                                        | 알리 주문완료 |
+| Pin headers(optional)             |     24 |                                                                        | 알리 주문완료 |
 | OLED(optional)                    |      1 |                                                                        |
-| Choc v1 switchs(PG1350)           |     36 | https://ko.aliexpress.com/item/1005005883472162.html                   | 알리 장바구니 |
+| Choc v1 switchs(PG1350)           |     36 | https://ko.aliexpress.com/item/1005005883472162.html                   | 알리 주문완료 |
 | Choc v1 keycaps                   |     36 | https://github.com/freerer2/choc_keycaps                               | JLC 주문완료  |
 | 1N4148 SOD123 or DO-35            |     36 | https://ko.aliexpress.com/item/1005002882901030.html                   | 있음          |
-| Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html                   | 알리 장바구니 |
+| Kailh low profile hot-swap socket |     36 | https://ko.aliexpress.com/item/1005006345544915.html                   | 알리 주문완료 |
 | Button, 4x4x1.5                   |      1 | https://ko.aliexpress.com/item/1005003918757433.html                   | 있음          |
 
 ### Case
 
-| Part name                     | Amount | Link                                                                 | note            |
-| :---------------------------- | -----: | :------------------------------------------------------------------- | :-------------- |
-| Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) | JLC 주문완료    |
-| Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                 | 있음            |
-| Screws, M2 3mm                |      8 | https://smartstore.naver.com/boltmall/products/106695149             | 네이버 장바구니 |
-| Heated screw insert, M2x2x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                 | 알리 장바구니   |
+| Part name                     | Amount | Link                                                                 | note          |
+| :---------------------------- | -----: | :------------------------------------------------------------------- | :------------ |
+| Case                          |      1 | [/lazyboy36/output/cases/case.stl](/lazyboy36/output/cases/case.stl) | JLC 주문완료  |
+| Black 10x2mm bumpon           |      8 | https://ko.aliexpress.com/item/1005005287385986.html                 | 있음          |
+| Screws, M2 3mm                |      8 | https://smartstore.naver.com/boltmall/products/106695149             | 알리 주문완료 |
+| Heated screw insert, M2x2x3.2 |      8 | https://ko.aliexpress.com/item/1005004870993068.html                 | 알리 주문완료 |
 
 # TODO-LIST
 
