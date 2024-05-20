@@ -1,5 +1,5 @@
 function standoff_extrude_4_outline_fn(){
-    return CAG.circle({"center":[190.2558553,-178.1033588],"radius":2.5})
+    return CAG.circle({"center":[189.3429523,-180.4047949],"radius":2.5})
 .union(
     CAG.circle({"center":[186.418206,-116.3594574],"radius":2.5})
 ).union(

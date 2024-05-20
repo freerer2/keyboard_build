@@ -276,7 +276,7 @@ outlines:
       radius: standoffSize
       where:
         ref: [mirror_thumbs_middle_cluster]
-        shift: [0.4kx, -0.4ky]
+        shift: [0.5kx, -0.5ky]
   bumpon:
     - what: circle
       radius: bumponSize
