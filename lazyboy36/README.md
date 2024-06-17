@@ -1,6 +1,7 @@
 # LAZYBOY36
-![1](assets/1.jpg)
-![2](assets/2.jpg)
+<img src="assets/1.jpg"  width="49.7%"/>
+<img src="assets/2.jpg"  width="49.7%"/>
+
 ![3](assets/3.jpg)
 
 스플릿 키보드는 휴대시 trrs 케이블, USB 케이블, 오른쪽 키보드, 왼쪽 키보드  
