@@ -1,6 +1,6 @@
 # LAZYBOY36
-<img src="assets/1.jpg"  width="49.7%"/>
-<img src="assets/2.jpg"  width="49.7%"/>
+<img src="assets/1.jpg"  width="40%"/>
+<img src="assets/2.jpg"  width="40%"/>
 
 ![3](assets/3.jpg)
 
