@@ -71,24 +71,24 @@
 
 ## FIRMWARE
 
-- [ ] QMK
+- [x] QMK
 - [ ] ~~VIA~~(고민중)
 
 ## BUILD
 
-- [ ] 재료준비
-  - [ ] PCB
-    - [ ] MCU : RP2040 PROMICRO
-    - [ ] SWITCH : PG1350
-    - [ ] KEYCAPS : MBK
+- [x] 재료준비
+  - [x] PCB
+    - [x] MCU : RP2040 PROMICRO
+    - [x] SWITCH : PG1350
+    - [x] KEYCAPS : MBK
     - [x] DIODE : SOD123
-    - [ ] HEADER PIN FEMALE : 315-43-112-41-003000
-    - [ ] HEADER PIN MALE : 3320-0-00-15-00-00-03-0
-    - [ ] HOTSWAP SOCKET
+    - [x] HEADER PIN FEMALE : 315-43-112-41-003000
+    - [x] HEADER PIN MALE : 3320-0-00-15-00-00-03-0
+    - [x] HOTSWAP SOCKET
     - [x] RST BUTTON
   - [ ] CASE
-    - [ ] INSERT
-    - [ ] SCREWS
+    - [x] INSERT
+    - [x] SCREWS
     - [x] BUMPON
 
 ## ETC
@@ -96,11 +96,11 @@
 - [ ] README 작성
   - [x] Introduction
   - [x] Features
-  - [ ] Quick Links
+  - [x] Quick Links
     - [x] ergogen config yaml
     - [x] PCB
     - [x] CASE
-    - [ ] Firmware
-      - [ ] QMK
+    - [x] Firmware
+      - [x] QMK
       - [ ] ~~VIA~~(고민중)
   - [x] BOM
